@@ -3,8 +3,8 @@
 Bem-vindo ao **Tarefa Helper**!  
 Este é um aplicativo web que utiliza **Inteligência Artificial** para te ajudar a responder dúvidas de tarefas escolares de forma rápida e simples.
 
-🌐 **Acesse o app agora**: [https://tarefa-helper.vercel.app](https://tarefa-helper.vercel.app)  
-*(Link fictício, troque pelo seu oficial após o deploy)*
+🌐 **Acesse o app agora**: [https://angular-task-helper.vercel.app/](https://angular-task-helper.vercel.app/)  
+
 
 ---
 
@@ -75,7 +75,7 @@ Acesse [http://localhost:4200](http://localhost:4200)
 ## 🌍 Projeto hospedado
 
 O app está disponível publicamente em:  
-👉 **[https://tarefa-helper.vercel.app](https://tarefa-helper.vercel.app)**
+👉 **[https://angular-task-helper.vercel.app/](https://angular-task-helper.vercel.app/)**
 
 Hospedagem feita com [Vercel](https://vercel.com)
 
