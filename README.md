@@ -1,59 +1,107 @@
-# TarefaHelper
+# 📚 Tarefa Helper — App de Ajuda com Tarefas Escolares
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+Bem-vindo ao **Tarefa Helper**!  
+Este é um aplicativo web que utiliza **Inteligência Artificial** para te ajudar a responder dúvidas de tarefas escolares de forma rápida e simples.
 
-## Development server
+🌐 **Acesse o app agora**: [https://tarefa-helper.vercel.app](https://tarefa-helper.vercel.app)  
+*(Link fictício, troque pelo seu oficial após o deploy)*
 
-To start a local development server, run:
+---
+
+## 🖥️ Tecnologias utilizadas
+
+- **Angular** (Standalone App)
+- **HTML5** / **CSS3**
+- **TypeScript**
+- **API Google Gemini** (IA para geração de conteúdo)
+- **Hospedagem Vercel**
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
+### 1️⃣ Clone o repositório
+
+```bash
+git clone https://github.com/ReginaldDev/tarefa-helper.git
+cd tarefa-helper
+```
+
+### 2️⃣ Instale as dependências
+
+```bash
+npm install
+```
+
+### 3️⃣ Configure sua chave da API (opcional)
+
+O app usa a **API Gemini** para gerar respostas.  
+Crie um arquivo de ambiente:
+
+```
+src/environments/environments.ts
+```
+
+Com o conteúdo:
+
+```typescript
+export const environment = {
+  geminiApiKey: 'SUA_CHAVE_DA_API_AQUI'
+};
+```
+
+*(Se você não quiser usar IA, o app avisará que a chave não está configurada.)*
+
+### 4️⃣ Rode o app
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Acesse [http://localhost:4200](http://localhost:4200)
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🎨 Funcionalidades
 
-```bash
-ng generate component component-name
-```
+✅ Campo de texto para digitar a pergunta  
+✅ Botão para enviar a pergunta à IA  
+✅ Exibição da resposta gerada  
+✅ Feedback visual (Loading Spinner enquanto carrega a resposta)  
+✅ Interface responsiva e moderna
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🌍 Projeto hospedado
 
-## Building
+O app está disponível publicamente em:  
+👉 **[https://tarefa-helper.vercel.app](https://tarefa-helper.vercel.app)**
 
-To build the project run:
+Hospedagem feita com [Vercel](https://vercel.com)
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 🛠️ Como gerar build de produção (para deploy)
 
 ```bash
-ng test
+ng build --output-path dist
 ```
 
-## Running end-to-end tests
+A pasta final estará em:
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
+```
+dist/tarefa-helper/
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## ✍️ Autor
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Reginaldo Junior**  
+[GitHub - ReginaldDev](https://github.com/ReginaldDev)
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença **MIT** — sinta-se livre para utilizar, modificar e compartilhar.
